@@ -1,63 +1,45 @@
-Walmart Store Sales Forecasting
+Walmart Sales Analysis & Forecasting
 📌 Project Overview
 
-This project aims to forecast Walmart’s weekly store sales using historical sales data combined with external factors such as holidays, promotions, fuel prices, CPI, unemployment, and markdown events. The forecasting helps optimize inventory management, staffing, supply chain efficiency, and strategic decision-making.
+This project analyzes Walmart’s historical sales data and builds forecasting models to predict weekly store sales. The notebook (Walmart Sales Analysis.ipynb) includes data exploration, preprocessing, visualization, and model evaluation. By incorporating external factors such as holidays, promotions, fuel prices, CPI, and unemployment, the project demonstrates how data-driven forecasting can improve retail decision-making.
 
-📂 Dataset
+📂 Files in Repository
 
-Sales Data: Weekly sales records across multiple Walmart stores and departments.
+Walmart Sales Analysis.ipynb – Main Jupyter Notebook with data preprocessing, analysis, and forecasting models.
 
-External Features:
+requirements.txt – Python dependencies required to run the notebook.
 
-Holiday & promotional markdowns
+README.md – Project documentation.
 
-Fuel price fluctuations
+⚙️ Workflow
 
-Consumer Price Index (CPI)
+Data Preprocessing – Cleaning missing values, encoding categorical data, and feature engineering.
 
-Unemployment rates
+Exploratory Data Analysis (EDA) – Sales trends, holiday effects, and external factor analysis.
 
-Weather impact
+Model Implementation – Linear Regression, Random Forest, XGBoost, Neural Networks.
 
-⚙️ Methodology
+Evaluation Metrics – Mean Squared Error (MSE) and R² score.
 
-Data Preprocessing & Cleaning – Handling missing values, feature encoding, and normalization.
-
-Exploratory Data Analysis (EDA) – Identifying trends, seasonality, and holiday impacts.
-
-Feature Engineering – Creating meaningful features to improve predictive power.
-
-Model Building – Implementing and comparing multiple models:
-
-Linear Regression
-
-Random Forest
-
-XGBoost
-
-Neural Network
-
-Evaluation Metrics – Mean Squared Error (MSE) and R² score used for model comparison.
+Visualization – Sales trends, predictions vs. actuals, and feature impacts.
 
 📊 Results
 
-Models successfully capture seasonal and promotional effects on sales.
+Identified key drivers of Walmart sales (holidays, markdowns, economy indicators).
 
-Random Forest and XGBoost showed higher accuracy compared to linear models.
+Random Forest and XGBoost provided better accuracy compared to linear models.
 
-Forecasting insights enable better planning of stock levels and resource allocation.
+Forecasting results highlight potential for improved inventory planning and staffing.
 
-🚀 Key Outcomes
-
-Improved demand forecasting for weekly sales.
-
-Enhanced operational efficiency by aligning supply with demand.
-
-Scalable approach applicable to other retail forecasting problems.
+🚀 Usage
+git clone https://github.com/your-username/walmart-sales-forecasting.git
+cd walmart-sales-forecasting
+pip install -r requirements.txt
+jupyter notebook "Walmart Sales Analysis.ipynb"
 
 📜 License
 
-This project is licensed under the MIT License – free to use and modify with attribution.
+This project is licensed under the MIT License – free to use with attribution.
 
 ✍️ Author
 
